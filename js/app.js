@@ -1,14 +1,25 @@
 (function() {
     var app = angular.module('store', []);
     app.controller('StoreController', function() {
-        this.product = gem;
+        this.products = gems;
     });
-    
-    var gem = {
-        name: 'Google Cardboard',
-        price: 5.96,
-        description: '...'
-    }
+
+    var gems = [
+        {
+            name: 'Google Cardboard',
+            price: 5.96,
+            description: '...',
+            purchaseButton: true,
+            soldOut: false
+        },
+        {
+            name: 'Computer',
+            price: 1000,
+            description: '...',
+            purchaseButton: true,
+            soldOut: false
+        }
+    ];
 })();
 
 
