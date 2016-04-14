@@ -12,8 +12,5 @@
   "dependencies": {
     "bootstrap": "~3.3.6",
     "angular": "~v1.5.5"
-  },
-  "exportsOverride": {
-
   }
 }
