@@ -4,6 +4,18 @@
         this.products = gems;
     });
 
+    app.controller('PanelController', function() {
+        this.tab = 1;
+
+        this.selectTab = function(setTab) {
+            this.tab = setTab;
+        };
+
+        this.isSelected = function(setTab) {
+            return this.tab === setTab;
+        };
+    });
+
     var gems = [
         {
             name: 'Google Cardboard',
