@@ -31,7 +31,11 @@
         </div>
         <div class="panel" ng-show="panel.isSelected(3)">
           <h4>Reviews</h4>
-          <p>None yet</p>
+          <blockquote ng-repeat="review in product.reviews">
+            <b>stars: {{review.stars}}</b>
+            {{review.body}}
+            <cite>by: {{review.author}}</cite>
+          </blockquote>
         </div>
       </section>
       <button ng-show="product.purchaseButton">Add to cart</button>

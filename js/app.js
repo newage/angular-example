@@ -27,6 +27,18 @@
                 {
                     full: 'image/example_image.png'
                 }
+            ],
+            reviews: [
+                {
+                    stars: 5,
+                    body: 'I love this product',
+                    author: 'victor@example.no'
+                },
+                {
+                    stars: 1,
+                    body: 'Fee-e',
+                    author: 'marina@example.no'
+                }
             ]
         },
         {
