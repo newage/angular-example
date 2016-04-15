@@ -10,14 +10,24 @@
             price: 5.96,
             description: '...',
             purchaseButton: true,
-            soldOut: false
+            soldOut: false,
+            images: [
+                {
+                    full: 'image/example_image.png'
+                }
+            ]
         },
         {
             name: 'Computer',
             price: 1000,
             description: '...',
             purchaseButton: true,
-            soldOut: false
+            soldOut: false,
+            images: [
+                {
+                    full: 'image/example_image.png'
+                }
+            ]
         }
     ];
 })();
